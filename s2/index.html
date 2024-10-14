@@ -2,12 +2,884 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <title>稀土掘金</title>
   <link rel="stylesheet" href="./reset.css">
   <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-  
+  <h1 class="hide">稀土掘金</h1>
+  <header class="hd">
+    <div class="hd-cnt">
+      <div class="hd-left">
+        <a href="javascript:void(0)" class="hd-nav"><img src="./assets/juejin_logo.png" alt="稀土掘金" class="hd-logo" /><img src="./assets/juejin.cn_.png" alt="稀土掘金" class="hd-logo hd-logo--small" /></a>
+        <a href="javascript:void(0)" class="hd-nav z-active">首页<img src="./assets/icon_arrow.png" class="hd-arrow" /></a>
+        <a href="javascript:void(0)" class="hd-nav">BOT</a>
+        <a href="javascript:void(0)" class="hd-nav">沸点</a>
+        <a href="javascript:void(0)" class="hd-nav">课程</a>
+        <a href="javascript:void(0)" class="hd-nav">直播</a>
+        <a href="javascript:void(0)" class="hd-nav">活动</a>
+        <a href="javascript:void(0)" class="hd-nav">竞赛</a>
+        <a href="javascript:void(0)" class="hd-nav">商城</a>
+        <a href="javascript:void(0)" class="hd-nav">APP</a>
+        <a href="javascript:void(0)" class="hd-nav">插件</a>
+        <a href="javascript:void(0)" class="hd-nav"><img src="./assets/AGI_logo.png" alt="AGI知识库" class="hd-banner" /></a>
+      </div>
+      <div class="hd-right">
+        <div class="hd-search">
+          <input type="text" class="hd-search-input" placeholder="搜索稀土掘金" />
+          <a href="javascript:void(0)" class="hd-search-btn"><img src="./assets/icon_search.png" class="hd-search-icon" /></a>
+        </div>
+        <div class="hd-cc">
+          <a href="javascript:void(0)" class="hd-cc-btn">创作者中心</a>
+          <span class="hd-cc-sep"></span>
+          <a href="javascript:void(0)" class="hd-cc-list"></a>
+        </div>
+        <a href="javascript:void(0)" class="hd-item hd-item--vip"><img src="./assets/icon_vip.png" class="hd-vip" />会员</a>
+        <a href="javascript:void(0)" class="hd-item"><img src="./assets/icon_noti.png" class="hd-noti" /></a>
+        <a href="javascript:void(0)" class="hd-item"><img src="./assets/icon_author_avatar.png" class="hd-me" /></a>
+      </div>
+    </div>
+  </header>
+
+  <nav class="bnav">
+    <ul class="bnav-list">
+      <li class="bnav-list-item z-new">
+        <a href="javascript:void(0)" class="bnav-list-btn">关注</a>
+      </li>
+      <li class="bnav-list-item z-active">
+        <a href="javascript:void(0)" class="bnav-list-btn">综合</a>
+      </li>
+      <li class="bnav-list-item">
+        <a href="javascript:void(0)" class="bnav-list-btn">排行榜</a>
+      </li>
+      <li class="bnav-list-item">
+        <a href="javascript:void(0)" class="bnav-list-btn">后端</a>
+      </li>
+      <li class="bnav-list-item">
+        <a href="javascript:void(0)" class="bnav-list-btn">前端</a>
+      </li>
+      <li class="bnav-list-item">
+        <a href="javascript:void(0)" class="bnav-list-btn">Android</a>
+      </li>
+      <li class="bnav-list-item">
+        <a href="javascript:void(0)" class="bnav-list-btn">iOS</a>
+      </li>
+      <li class="bnav-list-item">
+        <a href="javascript:void(0)" class="bnav-list-btn">人工智能</a>
+      </li>
+      <li class="bnav-list-item">
+        <a href="javascript:void(0)" class="bnav-list-btn">开发工具</a>
+      </li>
+      <li class="bnav-list-item">
+        <a href="javascript:void(0)" class="bnav-list-btn">代码人生</a>
+      </li>
+      <li class="bnav-list-item">
+        <a href="javascript:void(0)" class="bnav-list-btn">阅读</a>
+      </li>
+      <li class="bnav-list-item">
+        <a href="javascript:void(0)" class="bnav-list-btn">标签管理</a>
+      </li>
+    </ul>
+  </nav>
+
+  <nav class="mnav">
+    <ul class="mnav-list">
+      <li class="mnav-list-item">
+        <a href="javascript:void(0)" class="mnav-list-btn">
+          <img src="./assets/nav_icon1.png" class="mnav-list-icon" />
+          大模型子站
+          <img src="./assets/nav_arrow.png" class="mnav-list-arrow" />
+        </a>
+      </li>
+      <li class="mnav-list-item z-new">
+        <a href="javascript:void(0)" class="mnav-list-btn">
+          <img src="./assets/nav_icon2.png" class="mnav-list-icon" />
+          关注
+        </a>
+      </li>
+      <li class="mnav-list-item z-active">
+        <a href="javascript:void(0)" class="mnav-list-btn">
+          <img src="./assets/nav_icon3_active.png" class="mnav-list-icon" />
+          综合
+        </a>
+      </li>
+      <li class="mnav-list-item">
+        <a href="javascript:void(0)" class="mnav-list-btn">
+          <img src="./assets/nav_icon4.png" class="mnav-list-icon" />
+          后端
+        </a>
+      </li>
+      <li class="mnav-list-item">
+        <a href="javascript:void(0)" class="mnav-list-btn">
+          <img src="./assets/nav_icon5.png" class="mnav-list-icon" />
+          前端
+        </a>
+      </li>
+      <li class="mnav-list-item">
+        <a href="javascript:void(0)" class="mnav-list-btn">
+          <img src="./assets/nav_icon6.png" class="mnav-list-icon" />
+          Android
+        </a>
+      </li>
+      <li class="mnav-list-item">
+        <a href="javascript:void(0)" class="mnav-list-btn">
+          <img src="./assets/nav_icon7.png" class="mnav-list-icon" />
+          iOS
+        </a>
+      </li>
+      <li class="mnav-list-item">
+        <a href="javascript:void(0)" class="mnav-list-btn">
+          <img src="./assets/nav_icon8.png" class="mnav-list-icon" />
+          人工智能
+        </a>
+      </li>
+      <li class="mnav-list-item">
+        <a href="javascript:void(0)" class="mnav-list-btn">
+          <img src="./assets/nav_icon9.png" class="mnav-list-icon" />
+          开发工具
+        </a>
+      </li>
+      <li class="mnav-list-item">
+        <a href="javascript:void(0)" class="mnav-list-btn">
+          <img src="./assets/nav_icon10.png" class="mnav-list-icon" />
+          代码人生
+        </a>
+      </li>
+      <li class="mnav-list-item">
+        <a href="javascript:void(0)" class="mnav-list-btn">
+          <img src="./assets/nav_icon11.png" class="mnav-list-icon" />
+          阅读
+        </a>
+      </li>
+      <li class="mnav-list-item">
+        <a href="javascript:void(0)" class="mnav-list-btn">
+          <img src="./assets/nav_icon12.png" class="mnav-list-icon" />
+          排行榜
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main class="bd">
+    <article class="bd-cnt">
+      <nav class="snav">
+        <a href="javascript:void(0)" class="snav-item z-active">推荐</a>
+        <a href="javascript:void(0)" class="snav-item">最新</a>
+      </nav>
+
+      <section class="timeline-list">
+        <div class="article">
+          <div class="article-cnt">
+            <h3 class="article-tt">终于找到专属于前端的学习圈子了...</h3>
+            <p class="article-desc">学前端，来之道 —— 陪伴式自学前端圈子</p>
+            <div class="article-ft">
+              <div class="article-actions">
+                <a href="javascript:void(0)" class="article-action">之道前端</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_view.png" class="article-icon" />16k</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_like.png" class="article-icon" />666</a>
+              </div>
+              <ul class="article-tags">
+                <li class="article-tag">程序员</li>
+                <li class="article-tag">前端</li>
+                <li class="article-tag">JavaScript</li>
+              </ul>
+            </div>
+          </div>
+          <img src="./assets/blog_cover.png" class="article-cover" />
+        </div>
+        <div class="article">
+          <div class="article-cnt">
+            <h3 class="article-tt">终于找到专属于前端的学习圈子了...</h3>
+            <p class="article-desc">学前端，来之道 —— 陪伴式自学前端圈子;学前端，来之道 —— 陪伴式自学前端圈子;学前端，来之道 —— 陪伴式自学前端圈子;学前端，来之道 —— 陪伴式自学前端圈子;学前端，来之道 —— 陪伴式自学前端圈子;学前端，来之道 —— 陪伴式自学前端圈子</p>
+            <div class="article-ft">
+              <div class="article-actions">
+                <a href="javascript:void(0)" class="article-action">之道前端</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_view.png" class="article-icon" />16k</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_like.png" class="article-icon" />666</a>
+              </div>
+              <ul class="article-tags">
+                <li class="article-tag">程序员</li>
+                <li class="article-tag">前端</li>
+                <li class="article-tag">JavaScript</li>
+              </ul>
+            </div>
+          </div>
+          <img src="./assets/blog_cover.png" class="article-cover" />
+        </div>
+        <div class="article">
+          <div class="article-cnt">
+            <h3 class="article-tt">终于找到专属于前端的学习圈子了...</h3>
+            <p class="article-desc">学前端，来之道 —— 陪伴式自学前端圈子;学前端，来之道 —— 陪伴式自学前端圈子;学前端，来之道 —— 陪伴式自学前端圈子;学前端，来之道 —— 陪伴式自学前端圈子;学前端，来之道 —— 陪伴式自学前端圈子;学前端，来之道 —— 陪伴式自学前端圈子</p>
+            <div class="article-ft">
+              <div class="article-actions">
+                <a href="javascript:void(0)" class="article-action">之道前端</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_view.png" class="article-icon" />16k</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_like.png" class="article-icon" />666</a>
+              </div>
+              <ul class="article-tags">
+                <li class="article-tag">程序员</li>
+                <li class="article-tag">前端</li>
+                <li class="article-tag">JavaScript</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="article">
+          <div class="article-cnt">
+            <h3 class="article-tt">终于找到专属于前端的学习圈子了...</h3>
+            <p class="article-desc">学前端，来之道 —— 陪伴式自学前端圈子</p>
+            <div class="article-ft">
+              <div class="article-actions">
+                <a href="javascript:void(0)" class="article-action">之道前端</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_view.png" class="article-icon" />16k</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_like.png" class="article-icon" />666</a>
+              </div>
+              <ul class="article-tags">
+                <li class="article-tag">程序员</li>
+                <li class="article-tag">前端</li>
+                <li class="article-tag">JavaScript</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="article">
+          <div class="article-cnt">
+            <h3 class="article-tt">终于找到专属于前端的学习圈子了...</h3>
+            <p class="article-desc">学前端，来之道 —— 陪伴式自学前端圈子</p>
+            <div class="article-ft">
+              <div class="article-actions">
+                <a href="javascript:void(0)" class="article-action">之道前端</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_view.png" class="article-icon" />16k</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_like.png" class="article-icon" />666</a>
+              </div>
+              <ul class="article-tags">
+                <li class="article-tag">程序员</li>
+                <li class="article-tag">前端</li>
+                <li class="article-tag">JavaScript</li>
+              </ul>
+            </div>
+          </div>
+          <img src="./assets/blog_cover.png" class="article-cover" />
+        </div>
+        <div class="article">
+          <div class="article-cnt">
+            <h3 class="article-tt">终于找到专属于前端的学习圈子了...</h3>
+            <p class="article-desc">学前端，来之道 —— 陪伴式自学前端圈子</p>
+            <div class="article-ft">
+              <div class="article-actions">
+                <a href="javascript:void(0)" class="article-action">之道前端</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_view.png" class="article-icon" />16k</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_like.png" class="article-icon" />666</a>
+              </div>
+              <ul class="article-tags">
+                <li class="article-tag">程序员</li>
+                <li class="article-tag">前端</li>
+                <li class="article-tag">JavaScript</li>
+              </ul>
+            </div>
+          </div>
+          <img src="./assets/blog_cover.png" class="article-cover" />
+        </div>
+        <div class="article">
+          <div class="article-cnt">
+            <h3 class="article-tt">终于找到专属于前端的学习圈子了...</h3>
+            <p class="article-desc">学前端，来之道 —— 陪伴式自学前端圈子</p>
+            <div class="article-ft">
+              <div class="article-actions">
+                <a href="javascript:void(0)" class="article-action">之道前端</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_view.png" class="article-icon" />16k</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_like.png" class="article-icon" />666</a>
+              </div>
+              <ul class="article-tags">
+                <li class="article-tag">程序员</li>
+                <li class="article-tag">前端</li>
+                <li class="article-tag">JavaScript</li>
+              </ul>
+            </div>
+          </div>
+          <img src="./assets/blog_cover.png" class="article-cover" />
+        </div>
+        <div class="article">
+          <div class="article-cnt">
+            <h3 class="article-tt">终于找到专属于前端的学习圈子了...</h3>
+            <p class="article-desc">学前端，来之道 —— 陪伴式自学前端圈子</p>
+            <div class="article-ft">
+              <div class="article-actions">
+                <a href="javascript:void(0)" class="article-action">之道前端</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_view.png" class="article-icon" />16k</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_like.png" class="article-icon" />666</a>
+              </div>
+              <ul class="article-tags">
+                <li class="article-tag">程序员</li>
+                <li class="article-tag">前端</li>
+                <li class="article-tag">JavaScript</li>
+              </ul>
+            </div>
+          </div>
+          <img src="./assets/blog_cover.png" class="article-cover" />
+        </div>
+        <div class="article">
+          <div class="article-cnt">
+            <h3 class="article-tt">终于找到专属于前端的学习圈子了...</h3>
+            <p class="article-desc">学前端，来之道 —— 陪伴式自学前端圈子</p>
+            <div class="article-ft">
+              <div class="article-actions">
+                <a href="javascript:void(0)" class="article-action">之道前端</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_view.png" class="article-icon" />16k</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_like.png" class="article-icon" />666</a>
+              </div>
+              <ul class="article-tags">
+                <li class="article-tag">程序员</li>
+                <li class="article-tag">前端</li>
+                <li class="article-tag">JavaScript</li>
+              </ul>
+            </div>
+          </div>
+          <img src="./assets/blog_cover.png" class="article-cover" />
+        </div>
+        <div class="article">
+          <div class="article-cnt">
+            <h3 class="article-tt">终于找到专属于前端的学习圈子了...</h3>
+            <p class="article-desc">学前端，来之道 —— 陪伴式自学前端圈子</p>
+            <div class="article-ft">
+              <div class="article-actions">
+                <a href="javascript:void(0)" class="article-action">之道前端</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_view.png" class="article-icon" />16k</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_like.png" class="article-icon" />666</a>
+              </div>
+              <ul class="article-tags">
+                <li class="article-tag">程序员</li>
+                <li class="article-tag">前端</li>
+                <li class="article-tag">JavaScript</li>
+              </ul>
+            </div>
+          </div>
+          <img src="./assets/blog_cover.png" class="article-cover" />
+        </div>
+        <div class="recommend">
+          <h3 class="recommend-tt">基于你的阅读偏好，推荐以下作者<a href="javascript:void(0)" class="recommend-change-btn">换一换</a></h3>
+          <ul class="recommend-list">
+            <li class="recommend-item">
+              <div class="recommend-item-logo">
+                <img src="./assets/icon_author_avatar.png" class="recommend-item-avatar" />
+                <img src="./assets/icon_level.png" class="recommend-item-level" />
+              </div>
+              <h4 class="recommend-item-name">之道前端</h4>
+              <p class="recommend-item-tips">6.6K点赞 · 666.6K阅读</p>
+              <p class="recommend-item-desc">专业的前端学习圈子TOP1</p>
+              <a href="javascript:void(0)" class="recommend-item-btn">关注</a>
+              <a href="javascript:void(0)" class="recommend-item-close"><img src="./assets/icon_close.png" class="recommend-item-close-img" /></a>
+            </li>
+            <li class="recommend-item">
+              <div class="recommend-item-logo">
+                <img src="./assets/icon_author_avatar.png" class="recommend-item-avatar" />
+                <img src="./assets/icon_level.png" class="recommend-item-level" />
+              </div>
+              <h4 class="recommend-item-name">之道前端</h4>
+              <p class="recommend-item-tips">6.6K点赞 · 666.6K阅读</p>
+              <p class="recommend-item-desc">专业的前端学习圈子TOP1</p>
+              <a href="javascript:void(0)" class="recommend-item-btn">关注</a>
+              <a href="javascript:void(0)" class="recommend-item-close"><img src="./assets/icon_close.png" class="recommend-item-close-img" /></a>
+            </li>
+            <li class="recommend-item">
+              <div class="recommend-item-logo">
+                <img src="./assets/icon_author_avatar.png" class="recommend-item-avatar" />
+                <img src="./assets/icon_level.png" class="recommend-item-level" />
+              </div>
+              <h4 class="recommend-item-name">之道前端</h4>
+              <p class="recommend-item-tips">6.6K点赞 · 666.6K阅读</p>
+              <p class="recommend-item-desc">专业的前端学习圈子TOP1</p>
+              <a href="javascript:void(0)" class="recommend-item-btn">关注</a>
+              <a href="javascript:void(0)" class="recommend-item-close"><img src="./assets/icon_close.png" class="recommend-item-close-img" /></a>
+            </li>
+            <li class="recommend-item">
+              <div class="recommend-item-logo">
+                <img src="./assets/icon_author_avatar.png" class="recommend-item-avatar" />
+                <img src="./assets/icon_level.png" class="recommend-item-level" />
+              </div>
+              <h4 class="recommend-item-name">之道前端</h4>
+              <p class="recommend-item-tips">6.6K点赞 · 666.6K阅读</p>
+              <p class="recommend-item-desc">专业的前端学习圈子TOP1</p>
+              <a href="javascript:void(0)" class="recommend-item-btn">关注</a>
+              <a href="javascript:void(0)" class="recommend-item-close"><img src="./assets/icon_close.png" class="recommend-item-close-img" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="article">
+          <div class="article-cnt">
+            <h3 class="article-tt">终于找到专属于前端的学习圈子了...</h3>
+            <p class="article-desc">学前端，来之道 —— 陪伴式自学前端圈子</p>
+            <div class="article-ft">
+              <div class="article-actions">
+                <a href="javascript:void(0)" class="article-action">之道前端</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_view.png" class="article-icon" />16k</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_like.png" class="article-icon" />666</a>
+              </div>
+              <ul class="article-tags">
+                <li class="article-tag">程序员</li>
+                <li class="article-tag">前端</li>
+                <li class="article-tag">JavaScript</li>
+              </ul>
+            </div>
+          </div>
+          <img src="./assets/blog_cover.png" class="article-cover" />
+        </div>
+        <div class="article">
+          <div class="article-cnt">
+            <h3 class="article-tt">终于找到专属于前端的学习圈子了...</h3>
+            <p class="article-desc">学前端，来之道 —— 陪伴式自学前端圈子</p>
+            <div class="article-ft">
+              <div class="article-actions">
+                <a href="javascript:void(0)" class="article-action">之道前端</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_view.png" class="article-icon" />16k</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_like.png" class="article-icon" />666</a>
+              </div>
+              <ul class="article-tags">
+                <li class="article-tag">程序员</li>
+                <li class="article-tag">前端</li>
+                <li class="article-tag">JavaScript</li>
+              </ul>
+            </div>
+          </div>
+          <img src="./assets/blog_cover.png" class="article-cover" />
+        </div>
+        <div class="article">
+          <div class="article-cnt">
+            <h3 class="article-tt">终于找到专属于前端的学习圈子了...</h3>
+            <p class="article-desc">学前端，来之道 —— 陪伴式自学前端圈子</p>
+            <div class="article-ft">
+              <div class="article-actions">
+                <a href="javascript:void(0)" class="article-action">之道前端</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_view.png" class="article-icon" />16k</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_like.png" class="article-icon" />666</a>
+              </div>
+              <ul class="article-tags">
+                <li class="article-tag">程序员</li>
+                <li class="article-tag">前端</li>
+                <li class="article-tag">JavaScript</li>
+              </ul>
+            </div>
+          </div>
+          <img src="./assets/blog_cover.png" class="article-cover" />
+        </div>
+        <div class="article">
+          <div class="article-cnt">
+            <h3 class="article-tt">终于找到专属于前端的学习圈子了...</h3>
+            <p class="article-desc">学前端，来之道 —— 陪伴式自学前端圈子</p>
+            <div class="article-ft">
+              <div class="article-actions">
+                <a href="javascript:void(0)" class="article-action">之道前端</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_view.png" class="article-icon" />16k</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_like.png" class="article-icon" />666</a>
+              </div>
+              <ul class="article-tags">
+                <li class="article-tag">程序员</li>
+                <li class="article-tag">前端</li>
+                <li class="article-tag">JavaScript</li>
+              </ul>
+            </div>
+          </div>
+          <img src="./assets/blog_cover.png" class="article-cover" />
+        </div>
+        <div class="article">
+          <div class="article-cnt">
+            <h3 class="article-tt">终于找到专属于前端的学习圈子了...</h3>
+            <p class="article-desc">学前端，来之道 —— 陪伴式自学前端圈子</p>
+            <div class="article-ft">
+              <div class="article-actions">
+                <a href="javascript:void(0)" class="article-action">之道前端</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_view.png" class="article-icon" />16k</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_like.png" class="article-icon" />666</a>
+              </div>
+              <ul class="article-tags">
+                <li class="article-tag">程序员</li>
+                <li class="article-tag">前端</li>
+                <li class="article-tag">JavaScript</li>
+              </ul>
+            </div>
+          </div>
+          <img src="./assets/blog_cover.png" class="article-cover" />
+        </div>
+        <div class="article">
+          <div class="article-cnt">
+            <h3 class="article-tt">终于找到专属于前端的学习圈子了...</h3>
+            <p class="article-desc">学前端，来之道 —— 陪伴式自学前端圈子</p>
+            <div class="article-ft">
+              <div class="article-actions">
+                <a href="javascript:void(0)" class="article-action">之道前端</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_view.png" class="article-icon" />16k</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_like.png" class="article-icon" />666</a>
+              </div>
+              <ul class="article-tags">
+                <li class="article-tag">程序员</li>
+                <li class="article-tag">前端</li>
+                <li class="article-tag">JavaScript</li>
+              </ul>
+            </div>
+          </div>
+          <img src="./assets/blog_cover.png" class="article-cover" />
+        </div>
+        <div class="article">
+          <div class="article-cnt">
+            <h3 class="article-tt">终于找到专属于前端的学习圈子了...</h3>
+            <p class="article-desc">学前端，来之道 —— 陪伴式自学前端圈子</p>
+            <div class="article-ft">
+              <div class="article-actions">
+                <a href="javascript:void(0)" class="article-action">之道前端</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_view.png" class="article-icon" />16k</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_like.png" class="article-icon" />666</a>
+              </div>
+              <ul class="article-tags">
+                <li class="article-tag">程序员</li>
+                <li class="article-tag">前端</li>
+                <li class="article-tag">JavaScript</li>
+              </ul>
+            </div>
+          </div>
+          <img src="./assets/blog_cover.png" class="article-cover" />
+        </div>
+        <div class="article">
+          <div class="article-cnt">
+            <h3 class="article-tt">终于找到专属于前端的学习圈子了...</h3>
+            <p class="article-desc">学前端，来之道 —— 陪伴式自学前端圈子</p>
+            <div class="article-ft">
+              <div class="article-actions">
+                <a href="javascript:void(0)" class="article-action">之道前端</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_view.png" class="article-icon" />16k</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_like.png" class="article-icon" />666</a>
+              </div>
+              <ul class="article-tags">
+                <li class="article-tag">程序员</li>
+                <li class="article-tag">前端</li>
+                <li class="article-tag">JavaScript</li>
+              </ul>
+            </div>
+          </div>
+          <img src="./assets/blog_cover.png" class="article-cover" />
+        </div>
+        <div class="article">
+          <div class="article-cnt">
+            <h3 class="article-tt">终于找到专属于前端的学习圈子了...</h3>
+            <p class="article-desc">学前端，来之道 —— 陪伴式自学前端圈子</p>
+            <div class="article-ft">
+              <div class="article-actions">
+                <a href="javascript:void(0)" class="article-action">之道前端</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_view.png" class="article-icon" />16k</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_like.png" class="article-icon" />666</a>
+              </div>
+              <ul class="article-tags">
+                <li class="article-tag">程序员</li>
+                <li class="article-tag">前端</li>
+                <li class="article-tag">JavaScript</li>
+              </ul>
+            </div>
+          </div>
+          <img src="./assets/blog_cover.png" class="article-cover" />
+        </div>
+        <div class="article">
+          <div class="article-cnt">
+            <h3 class="article-tt">终于找到专属于前端的学习圈子了...</h3>
+            <p class="article-desc">学前端，来之道 —— 陪伴式自学前端圈子</p>
+            <div class="article-ft">
+              <div class="article-actions">
+                <a href="javascript:void(0)" class="article-action">之道前端</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_view.png" class="article-icon" />16k</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_like.png" class="article-icon" />666</a>
+              </div>
+              <ul class="article-tags">
+                <li class="article-tag">程序员</li>
+                <li class="article-tag">前端</li>
+                <li class="article-tag">JavaScript</li>
+              </ul>
+            </div>
+          </div>
+          <img src="./assets/blog_cover.png" class="article-cover" />
+        </div>
+        <div class="article">
+          <div class="article-cnt">
+            <h3 class="article-tt">终于找到专属于前端的学习圈子了...</h3>
+            <p class="article-desc">学前端，来之道 —— 陪伴式自学前端圈子</p>
+            <div class="article-ft">
+              <div class="article-actions">
+                <a href="javascript:void(0)" class="article-action">之道前端</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_view.png" class="article-icon" />16k</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_like.png" class="article-icon" />666</a>
+              </div>
+              <ul class="article-tags">
+                <li class="article-tag">程序员</li>
+                <li class="article-tag">前端</li>
+                <li class="article-tag">JavaScript</li>
+              </ul>
+            </div>
+          </div>
+          <img src="./assets/blog_cover.png" class="article-cover" />
+        </div>
+        <div class="article">
+          <div class="article-cnt">
+            <h3 class="article-tt">终于找到专属于前端的学习圈子了...</h3>
+            <p class="article-desc">学前端，来之道 —— 陪伴式自学前端圈子</p>
+            <div class="article-ft">
+              <div class="article-actions">
+                <a href="javascript:void(0)" class="article-action">之道前端</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_view.png" class="article-icon" />16k</a>
+                <a href="javascript:void(0)" class="article-action"><img src="./assets/icon_like.png" class="article-icon" />666</a>
+              </div>
+              <ul class="article-tags">
+                <li class="article-tag">程序员</li>
+                <li class="article-tag">前端</li>
+                <li class="article-tag">JavaScript</li>
+              </ul>
+            </div>
+          </div>
+          <img src="./assets/blog_cover.png" class="article-cover" />
+        </div>
+      </section>
+    </article>
+
+    <aside class="bd-aside">
+      <section class="checkin">
+        <div class="checkin-box">
+          <p class="checkin-info">连续签到<span class="checkin-count">386天</span></p>
+          <p class="checkin-desc">点亮在社区的每一天</p>
+        </div>
+        <a href="javascript:void(0)" class="checkin-btn">已签到</a>
+      </section>
+
+      <section class="hot">
+        <div class="hot-tt">
+          <p class="hot-title"><img src="./assets/icon_article.png" class="hot-title-icon" />文章榜</p>
+          <a href="javascript:void(0)" class="hot-btn"><img src="./assets/icon_change.png" class="hot-btn-icon" />换一换</a>
+        </div>
+        <div class="hot-list">
+          <ul class="harticle-list">
+            <li class="harticle-item">
+              <a href="javascript:void(0)" class="harticle-link">
+                <img src="./assets/number1.png" class="harticle-num-icon" /><span class="harticle-text">学前端，来之道 —— 陪伴式自学前端圈子</span></a></li>
+            <li class="harticle-item">
+              <a href="javascript:void(0)" class="harticle-link">
+                <img src="./assets/number2.png" class="harticle-num-icon" /><span class="harticle-text">学前端，来之道 —— 陪伴式自学前端圈子</span></a></li>
+            <li class="harticle-item">
+              <a href="javascript:void(0)" class="harticle-link">
+                <img src="./assets/number3.png" class="harticle-num-icon" /><span class="harticle-text">学前端，来之道 —— 陪伴式自学前端圈子</span></a></li>
+            <li class="harticle-item">
+              <a href="javascript:void(0)" class="harticle-link">
+                <img src="./assets/number4.png" class="harticle-num-icon" /><span class="harticle-text">学前端，来之道 —— 陪伴式自学前端圈子</span></a></li>
+            <li class="harticle-item">
+              <a href="javascript:void(0)" class="harticle-link">
+                <img src="./assets/number5.png" class="harticle-num-icon" /><span class="harticle-text">学前端，来之道 —— 陪伴式自学前端圈子</span></a></li>
+          </ul>
+        </div>
+        <div class="hot-ft">
+          <a href="javascript:void(0)" class="hot-more">查看更多<img src="./assets/more_arrow.png" class="hot-more-icon" /></a>
+        </div>
+      </section>
+
+      <div class="banner">
+        <a href="javascript:void(0)" class="banner-item"><img src="./assets/banner1.png" class="banner-img" /></a>
+        <a href="javascript:void(0)" class="banner-item"><img src="./assets/banner2.png" class="banner-img" /></a>
+        <a href="javascript:void(0)" class="banner-item"><img src="./assets/banner3.png" class="banner-img" /></a>
+      </div>
+
+      <section class="hot">
+        <div class="hot-tt">
+          <p class="hot-title">作者榜</p>
+        </div>
+        <div class="hot-list">
+          <ul class="author-list">
+            <li class="author-item">
+              <img src="./assets/icon_author_avatar.png" class="author-avatar" />
+              <div class="author-info">
+                <p class="author-name">之道前端</p>
+                <p class="author-desc">学前端，来之道 —— 陪伴式自学前端圈子</p>
+              </div>
+              <a href="javascript:void(0)" class="author-follow">＋ 关注</a>
+            </li>
+            <li class="author-item">
+              <img src="./assets/icon_author_avatar.png" class="author-avatar" />
+              <div class="author-info">
+                <p class="author-name">之道前端</p>
+                <p class="author-desc">学前端，来之道 —— 陪伴式自学前端圈子</p>
+              </div>
+              <a href="javascript:void(0)" class="author-follow">＋ 关注</a>
+            </li>
+            <li class="author-item">
+              <img src="./assets/icon_author_avatar.png" class="author-avatar" />
+              <div class="author-info">
+                <p class="author-name">之道前端</p>
+                <p class="author-desc">学前端，来之道 —— 陪伴式自学前端圈子</p>
+              </div>
+              <a href="javascript:void(0)" class="author-follow">＋ 关注</a>
+            </li>
+            <li class="author-item">
+              <img src="./assets/icon_author_avatar.png" class="author-avatar" />
+              <div class="author-info">
+                <p class="author-name">之道前端</p>
+                <p class="author-desc">学前端，来之道 —— 陪伴式自学前端圈子</p>
+              </div>
+              <a href="javascript:void(0)" class="author-follow">＋ 关注</a>
+            </li>
+            <li class="author-item">
+              <img src="./assets/icon_author_avatar.png" class="author-avatar" />
+              <div class="author-info">
+                <p class="author-name">之道前端</p>
+                <p class="author-desc">学前端，来之道 —— 陪伴式自学前端圈子</p>
+              </div>
+              <a href="javascript:void(0)" class="author-follow">＋ 关注</a>
+            </li>
+          </ul>
+        </div>
+        <div class="hot-ft">
+          <a href="javascript:void(0)" class="hot-more">查看更多<img src="./assets/more_arrow.png" class="hot-more-icon" /></a>
+        </div>
+      </section>
+
+      <section class="hot">
+        <div class="hot-tt">
+          <p class="hot-title">推荐话题</p>
+          <a href="javascript:void(0)" class="hot-btn"><img src="./assets/icon_change.png" class="hot-btn-icon" />换一换</a>
+        </div>
+        <div class="hot-list">
+          <ul class="topic-list">
+            <li class="topic-item">
+              <a href="javascript:void(0)" class="topic-link">
+                <p class="topic-cnt">
+                  <img src="./assets/icon_tag1.png" class="topic-icon" />
+                  <img src="./assets/icon_tag2.png" class="topic-icon" />
+                  #之道前端#
+                </p>
+                <p class="topic-count">66.6m</p>
+              </a>
+            </li>
+            <li class="topic-item">
+              <a href="javascript:void(0)" class="topic-link">
+                <p class="topic-cnt">
+                  <img src="./assets/icon_tag2.png" class="topic-icon" />
+                  <span class="topic-cnt-text">#之道前端#</span>
+                </p>
+                <p class="topic-count">66.6m</p>
+              </a>
+            </li>
+            <li class="topic-item">
+              <a href="javascript:void(0)" class="topic-link">
+                <p class="topic-cnt">
+                  <span class="topic-cnt-text">#之道前端#</span>
+                </p>
+                <p class="topic-count">66.6m</p>
+              </a>
+            </li>
+            <li class="topic-item">
+              <a href="javascript:void(0)" class="topic-link">
+                <p class="topic-cnt">
+                  <span class="topic-cnt-text">#学前端，来之道 —— 陪伴式自学前端圈子#</span>
+                </p>
+                <p class="topic-count">66.6m</p>
+              </a>
+            </li>
+            <li class="topic-item">
+              <a href="javascript:void(0)" class="topic-link">
+                <p class="topic-cnt">
+                  <img src="./assets/icon_tag1.png" class="topic-icon" />
+                  <img src="./assets/icon_tag2.png" class="topic-icon" />
+                  <span class="topic-cnt-text">#之道前端#</span>
+                </p>
+                <p class="topic-count">66.6m</p>
+              </a>
+            </li>
+            <li class="topic-item">
+              <a href="javascript:void(0)" class="topic-link">
+                <p class="topic-cnt">
+                  <img src="./assets/icon_tag1.png" class="topic-icon" />
+                  <img src="./assets/icon_tag2.png" class="topic-icon" />
+                  <span class="topic-cnt-text">#学前端，来之道 —— 陪伴式自学前端圈子#</span>
+                </p>
+                <p class="topic-count">6666.6m</p>
+              </a>
+            </li>
+            <li class="topic-item">
+              <a href="javascript:void(0)" class="topic-link">
+                <p class="topic-cnt">
+                  <img src="./assets/icon_tag1.png" class="topic-icon" />
+                  <img src="./assets/icon_tag2.png" class="topic-icon" />
+                  <span class="topic-cnt-text">#之道前端#</span>
+                </p>
+                <p class="topic-count">66.6m</p>
+              </a>
+            </li>
+            <li class="topic-item">
+              <a href="javascript:void(0)" class="topic-link">
+                <p class="topic-cnt">
+                  <img src="./assets/icon_tag1.png" class="topic-icon" />
+                  <img src="./assets/icon_tag2.png" class="topic-icon" />
+                  <span class="topic-cnt-text">#之道前端#</span>
+                </p>
+                <p class="topic-count">66.6m</p>
+              </a>
+            </li>
+            <li class="topic-item">
+              <a href="javascript:void(0)" class="topic-link">
+                <p class="topic-cnt">
+                  <img src="./assets/icon_tag1.png" class="topic-icon" />
+                  <img src="./assets/icon_tag2.png" class="topic-icon" />
+                  <span class="topic-cnt-text">#之道前端#</span>
+                </p>
+                <p class="topic-count">66.6m</p>
+              </a>
+            </li>
+            <li class="topic-item">
+              <a href="javascript:void(0)" class="topic-link">
+                <p class="topic-cnt">
+                  <img src="./assets/icon_tag1.png" class="topic-icon" />
+                  <img src="./assets/icon_tag2.png" class="topic-icon" />
+                  <span class="topic-cnt-text">#之道前端#</span>
+                </p>
+                <p class="topic-count">66.6m</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="hot-ft">
+          <a href="javascript:void(0)" class="hot-more">查看更多<img src="./assets/more_arrow.png" class="hot-more-icon" /></a>
+        </div>
+      </section>
+
+      <section class="copyright">
+        <p class="copyright-row">
+          <a href="javascript:void(0)" class="copyright-item">用户协议</a>
+          <a href="javascript:void(0)" class="copyright-item">营业执照</a>
+          <a href="javascript:void(0)" class="copyright-item">隐私政策</a>
+          <a href="javascript:void(0)" class="copyright-item">关于我们</a>
+        </p>
+        <p class="copyright-row">
+          <a href="javascript:void(0)" class="copyright-item">使用指南</a>
+          <a href="javascript:void(0)" class="copyright-item">友情链接</a>
+          <a href="javascript:void(0)" class="copyright-item">更多文章</a>
+        </p>
+        <p class="copyright-row">
+          <a href="javascript:void(0)" class="copyright-item">举报邮箱：feedback@xitu.io</a>
+        </p>
+        <p class="copyright-row">
+          <a href="javascript:void(0)" class="copyright-item">座机电话：010-83434395</a>
+        </p>
+        <p class="copyright-row">
+          <a href="javascript:void(0)" class="copyright-item">京ICP备：18012699号-3</a>
+        </p>
+        <p class="copyright-row">
+          <a href="javascript:void(0)" class="copyright-item">京ICP证：京82-20191272</a>
+        </p>
+        <p class="copyright-row">
+          <a href="javascript:void(0)" class="copyright-item"><img src="./assets/icon_police.png" class="copyright-item-icon" />京公网安备11010802026719号</a>
+        </p>
+        <p class="copyright-row">
+          <span class="copyright-item">©2024 稀土掘金</span>
+        </p>
+      </section>
+    </aside>
+  </main>
+
+  <aside class="maside">
+    <a href="javascript:void(0)" class="maside-btn"><img src="./assets/icon_feedback.png" class="maside-btn-icon" /></a>
+    <a href="javascript:void(0)" class="maside-btn"><img src="./assets/icon_more.png" class="maside-btn-icon" /></a>
+  </aside>
 </body>
 </html>
